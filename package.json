@@ -1,0 +1,26 @@
+{
+  "name": "url-shortener",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./start.js",
+    "watch": "nodemon ./start.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "dotenv": "^4.0.0",
+    "express": "~4.15.2",
+    "mongoose": "^4.10.5",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "serve-favicon": "~2.4.2",
+    "validator": "^7.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.5.2",
+    "nodemon": "^1.11.0"
+  }
+}
